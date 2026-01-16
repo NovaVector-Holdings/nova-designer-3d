@@ -1,0 +1,39 @@
+{
+  "name": "nova-designer-3d",
+  "version": "1.0.0",
+  "description": "Professional AI-powered 3D CAD modeling tool - Powered by Nova Vector Holdings",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "server": "node server.js",
+    "start": "node start.js",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "cad",
+    "3d",
+    "ai",
+    "openscad",
+    "nova-vector-holdings",
+    "design",
+    "modeling"
+  ],
+  "author": "Nova Vector Holdings",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.71.2",
+    "express": "^5.2.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "three": "^0.182.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.8",
+    "@types/react-dom": "^19.2.3",
+    "@types/three": "^0.182.0",
+    "@vitejs/plugin-react": "^5.1.2",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  }
+}
