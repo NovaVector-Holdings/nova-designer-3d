@@ -1,8 +1,18 @@
 # Nova Designer 3D
 
+<div align="center">
+
+[![Build](https://github.com/NovaVector-Holdings/nova-designer-3d/actions/workflows/build.yml/badge.svg)](https://github.com/NovaVector-Holdings/nova-designer-3d/actions)
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+
 **Professional AI-powered 3D CAD modeling tool**
 
 *Powered by Nova Vector Holdings*
+
+[Features](#features) • [Quick Start](#quick-start) • [Documentation](#documentation) • [Demo](#demo)
+
+</div>
 
 ---
 
@@ -40,10 +50,14 @@ Perfect for designing **hexagonal cube-shaped dice hollowed for electronics**, e
 3. **Anthropic API Key**
    - Get your key from https://console.anthropic.com/
 
-## Installation
+## Quick Start
 
 ```bash
-cd /tmp/cad-creator
+# Clone the repository
+git clone https://github.com/NovaVector-Holdings/nova-designer-3d.git
+cd nova-designer-3d
+
+# Install dependencies
 npm install
 ```
 
@@ -199,8 +213,40 @@ ISC
 
 ## Contributing
 
-This is a demonstration project. Feel free to fork and customize for your needs!
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## Documentation
+
+- **[Quick Start Guide](QUICKSTART.md)** - Get running in 3 minutes
+- **[UI Overview](NOVA_DESIGNER_3D.md)** - Complete feature documentation
+- **[Architecture](ARCHITECTURE.md)** - Technical implementation details
+- **[Transformation Summary](TRANSFORMATION_SUMMARY.md)** - Development history
+
+## About Nova Vector Holdings
+
+Nova Designer 3D is part of the Nova Vector Holdings portfolio of professional engineering and design tools.
+
+**Website**: [Coming Soon]
+**GitHub**: [@NovaVector-Holdings](https://github.com/NovaVector-Holdings)
+
+## License
+
+ISC License - see LICENSE file for details
 
 ---
 
-Built with Claude Sonnet 4.5 and Three.js
+<div align="center">
+
+**Built with Claude Sonnet 4.5 and Three.js**
+
+Made with ❤️ by [Nova Vector Holdings](https://github.com/NovaVector-Holdings)
+
+[⭐ Star us on GitHub](https://github.com/NovaVector-Holdings/nova-designer-3d) • [🐛 Report Bug](https://github.com/NovaVector-Holdings/nova-designer-3d/issues) • [✨ Request Feature](https://github.com/NovaVector-Holdings/nova-designer-3d/issues)
+
+</div>
